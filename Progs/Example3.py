@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 def readline():
     # open the file2.txt in read mode. causes error if no such file exists.
     fileptr = open("file2.txt", "r")
@@ -13,6 +14,7 @@ def readline():
     # closes the opened file
     fileptr.close()
 
+
 def readline2():
     # open the file2.txt in read mode. causes error if no such file exists.
     with open("file2.txt", "r") as fileptr:
@@ -22,9 +24,12 @@ def readline2():
         # prints the content of the file
         print(content1)
         print(content2)
+
+
 def main():
     readline()
     readline2()
+
 
 if __name__ == "__main__":
     main()

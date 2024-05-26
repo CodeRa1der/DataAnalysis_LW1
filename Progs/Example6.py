@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 if __name__ == "__main__":
     # open the text.txt in append mode. Create a new file if no such file exists.
     with open("text.txt", "w", encoding="utf-8") as fileptr:

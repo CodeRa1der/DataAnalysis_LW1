@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+
 import os
+
 
 def main():
     a = int(input("Choose example (9, 10): "))
@@ -12,6 +15,7 @@ def main():
     elif a == 10:
         # deleting the file named file3.txt
         os.remove("file3.txt")
+
 
 if __name__ == "__main__":
     main()

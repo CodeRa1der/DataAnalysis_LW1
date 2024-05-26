@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 import os
+
 
 def main():
     a = int(input("Choose example (11, 12, 13, 14): "))
@@ -23,6 +25,7 @@ def main():
     if a == 14:
         # removing the new directory
         os.rmdir("new")
+
 
 if __name__ == "__main__":
     main()
